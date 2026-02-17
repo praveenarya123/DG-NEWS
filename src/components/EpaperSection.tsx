@@ -1,4 +1,4 @@
-import { Newspaper, Calendar, ArrowRight, Sparkles } from "lucide-react";
+import { Newspaper, Calendar, ArrowRight, Sparkles, Download } from "lucide-react";
 
 const dates = [
   { day: "आज", date: "17 फरवरी" },
@@ -52,6 +52,11 @@ const EpaperSection = () => {
               आज का E-Paper पढ़ें
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </button>
+            <br></br>
+             <button className="px-6 py-3 bg-pink-500 text-white font-semibold rounded-lg hover:bg-green-900 transition-all duration-300 flex items-center space-x-2">
+                <Download className="w-5 h-5" />
+                <span>Download PDF</span>
+              </button>
           </div>
 
           <div className="w-52 md:w-60 shrink-0">
