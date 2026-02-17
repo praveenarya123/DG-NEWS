@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Noto Sans', 'sans-serif'],
+        hindi: ['Tiro Devanagari Hindi', 'serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +50,14 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        news: {
+          dark: "hsl(var(--news-dark))",
+          highlight: "hsl(var(--news-highlight))",
+          live: "hsl(var(--news-live))",
+          category: "hsl(var(--news-category))",
+          sports: "hsl(var(--news-sports))",
+          entertainment: "hsl(var(--news-entertainment))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
